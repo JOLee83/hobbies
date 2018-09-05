@@ -5,10 +5,7 @@ header {
   color: black;
   background-color: red;
   text-align: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  }
+}
 body {
   margin: 0;
   min-height: 100%;
@@ -18,14 +15,13 @@ body {
   text-align: center;
   background-image: url(./images/Background1.jpeg);
   background-position: center;
-  background-attachment: fixed;
+  background-size: auto;
 }
 footer {
   color: black;
   background-color: red;
   text-align: center;
-  Bottom: 0;
-  }
+}
 em {
   font: 22px / 1 sans-serif;
   color: red;
@@ -36,29 +32,6 @@ strong{
 }
 ul {
   list-style: none;
+  font: 20px;
 }
-img {
-  max-height:200px;
-  padding: 1em
-}
-main {
-  margin-top: 175px;
-  padding: 0px 40px 0px 40px
-}
-.love {
-  color: black;
-  padding-left: 1em;
-}
-#movies {
-  background-color: lightblue;
-  font-weight: normal;
-}
-#shows {
-  background-color: lightblue;
-  font-weight: normal;
-}
-#games {
-  background-color: lightblue;
-  font-weight: normal;
-
-}
+h3
