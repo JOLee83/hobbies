@@ -1,9 +1,32 @@
 html {
   height: 100%;
 }
-
+header {
+  color: black;
+  background-color: red;
+  text-align: center;
+}
 body {
   margin: 0;
   min-height: 100%;
-  font: 16px / 1 sans-serif;
+  font: 20px / 1 fantasy;
+  background-color: black;
+  color: blue;
+  text-align: center;
+  background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw1008a.jpg);
+  background-position: center;
+  background-size: auto;
+}
+footer {
+  color: black;
+  background-color: red;
+  text-align: center;
+}
+em {
+  font: 22px / 1 sans-serif;
+  color: red;
+  }
+strong{
+  font: 22px / 1 sans-serif;
+  color: yellow;
 }
