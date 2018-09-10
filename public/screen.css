@@ -36,9 +36,11 @@ img {
   animation: pop 5s;
 }
 @keyframes pop {
-  0% {transform: scale(.1);}
-  50% {transform: scale(1.1);}
-  100% {transform: scale(1);}
+  /* 0% {transform: scale(.1);} */
+  /* 50% {transform: scale(1.1);} */
+  /* 100% {transform: scale(1);} */
+  0% {transform: rotateY(180deg);}
+
 }
 img:hover {
   transform: scale(3);
@@ -98,7 +100,6 @@ h1, h2 {
   position: fixed;
   width: 100%;
   bottom: 0;
-
 }
 main {
 margin-top: 125px;
@@ -117,8 +118,6 @@ table {
   justify-content: center;
   border: 1px solid;
   border-color: darkgrey white white darkgrey;
-  /* border-radius: 20px; */
-  /* overflow: hidden; */
 }
 td,th {
   padding: 30px;
